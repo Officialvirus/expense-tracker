@@ -1,13 +1,14 @@
 (function(){
-  const firebaseConfig = {
-    apiKey: "AIzaSyCOOtPM83z6FnsDeGxOCS65izGfBZrUbtA",
-    authDomain: "expense-book-suraj.firebaseapp.com",
-    projectId: "expense-book-suraj",
-    storageBucket: "expense-book-suraj.firebasestorage.app",
-    messagingSenderId: "832074886569",
-    appId: "1:832074886569:web:aafd5f3ff8a3c156ea68b8",
-    measurementId: "G-Y6XH9N22R6"
-  };
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCOotPM83z6FnsDeGxOCS65izGfBZrUbtA",
+  authDomain: "expense-book-suraj.firebaseapp.com",
+  projectId: "expense-book-suraj",
+  storageBucket: "expense-book-suraj.firebasestorage.app",
+  messagingSenderId: "832074886569",
+  appId: "1:832074886569:web:aafd5f3ff8a3c156ea68b8",
+  measurementId: "G-Y6XH9N22R6"
+};
   firebase.initializeApp(firebaseConfig);
   const auth = firebase.auth();
   const db = firebase.firestore();
